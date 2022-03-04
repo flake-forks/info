@@ -2,11 +2,15 @@
 
 ## overview
 
-This organization contains forks of repos that are included in [flakes-community-ci](https://github.com/nix-community/flakes-community-ci).
+This organization houses (hopefully temporary) forks of some cool community projects.
 
-If you are an **end-user**, you likely want to go to:
+The forks add basic nix flakes support with basic build and update automation.
 
-### [flakes-community-ci](https://github.com/nix-community/flakes-community-ci)
+This GitHub organization contains workflows to automatically, regulary rebase these forks.
+
+## usage 
+
+#### usage details (binary cache, etc) is found here: [**nix-community**/flakes-community-ci](https://github.com/nix-community/flakes-community-ci)
 
 
 ## details
@@ -15,10 +19,6 @@ Each repository contains one commit for each patch:
  - foo.patch => add basic flake support
  - ?
  - extras.patch => add any completion/manpage support
-
-Forks:
-- [anodium](https://github.com/flake-forks/anodium) (upstream: [polymeilex](https://github.com/polymeilex/anodium))
-- [nushell](https://github.com/flake-forks/nushell) (upstream: [nushell](https://github.com/nushell/nushell))
 
 ## automation
 
